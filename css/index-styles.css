@@ -131,7 +131,6 @@ html {
 .section h2 {
   font-family: "Bitter";
   font-size: 44px;
-  margin-top: 5%;
   margin-bottom: 0;
 }
 
@@ -195,7 +194,7 @@ html {
   justify-content: center;
   margin: auto;
   gap: 50px;
-  margin-top: 2px;
+  margin-top: 50px;
   max-width: 1200px;
 }
 
@@ -222,7 +221,7 @@ html {
 }
 
 .container .title {
-  margin-top: 5em;
+  margin-top: 3em;
   margin-bottom: 1em;
 }
 
@@ -358,6 +357,7 @@ html {
   .additional-features-container {
     flex-direction: column;
     align-items: start;
+    width: 90%;
   }
 
   .feature {
