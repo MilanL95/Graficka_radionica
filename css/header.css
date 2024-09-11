@@ -1,0 +1,33 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    padding-top: 200px;
+}
+
+#header-container {
+    display: flex;
+}
+
+#header-container > h1 {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#header-container > div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: start;
+}
+
+#header-image {
+    display: flex;
+    width: 50%;
+    bottom: 0;
+    transform: translateY(50%);
+}

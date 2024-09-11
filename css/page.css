@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    background-color: red;
+}
+
+.container {
+    padding: 0 10vw 0 10vw;
+}
+
+.button {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 2em;
+    justify-content: center;
+    background-color: #1AB385;
+}
