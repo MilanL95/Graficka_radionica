@@ -1,0 +1,38 @@
+#main {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#main > section {
+    display: flex;
+    gap: 6%;
+    margin-bottom: 100px;
+}
+
+.vertical-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.vertical-content > * {
+    display: flex;
+    width: 100%;
+}
+
+.horizontal-content {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.horizontal-content > * {
+    display: flex;
+    width: 47%;
+    object-fit: cover;
+}
+
+#main > section > div {
+    width: 47%;
+}
