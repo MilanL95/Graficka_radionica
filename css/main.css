@@ -4,19 +4,32 @@
     flex-direction: column;
 }
 
-#main > section {
+#main section {
     display: flex;
     gap: 6%;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.reverse-section {
+    flex-direction: column-reverse !important;
 }
 
 .vertical-content {
     display: flex;
+    align-items: start;
+    align-content: start;
     flex-wrap: wrap;
     gap: 1em;
+    margin-bottom: 20px;
 }
 
-.vertical-content > * {
+.vertical-content img {
+    display: flex;
+    width: 100%;
+}
+
+.vertical-content a {
     display: flex;
     width: 100%;
 }
@@ -25,14 +38,57 @@
     display: flex;
     flex-direction: row;
     gap: 6%;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.horizontal-content > * {
+.vertical-content-single {
     display: flex;
-    width: 47%;
-    object-fit: cover;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
-#main > section > div {
+.horizontal-content img {
+    display: flex;
+    object-fit: cover;
     width: 47%;
+}
+
+.horizontal-content-single {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.horizontal-content-single img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (min-width: 750px) {
+    #main section {
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .reverse-section {
+        flex-direction: unset !important;
+    }
+
+    .vertical-content {
+        width: 47%;
+    }
+
+    .horizontal-content {
+        width: 47%;
+    }
+    
+    .horizontal-content-single {
+        width: 47%;
+    }
 }
