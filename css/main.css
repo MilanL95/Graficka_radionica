@@ -45,8 +45,10 @@
 }
 
 .vertical-content-single {
+    width: 100%;
     display: flex;
-    align-items: start;
+    flex-direction: column;
+    text-align: center;
     flex-wrap: wrap;
     gap: 1em;
     margin-bottom: 20px;
