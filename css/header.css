@@ -22,10 +22,13 @@
 }
 
 #header-content > h1 {
-    display: flex;
     flex-basis: 50%;
     text-align: center;
     color: var(--teal)
+}
+
+#header-content > h1 > span {
+    color: white;
 }
 
 #header-content > div {
